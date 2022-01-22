@@ -43,5 +43,12 @@ User stories / Objetivos
 ✅ Task 4 → Compute the maximum traveled distance
 
 ✅ Task 5 → Save the computed data (Inputs + Results) into a file
+______________________________________________________________________________________________________________________________________________
+>>>>>>>>>>>>>>>>>> SOLUTION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ - Challenge.py: Contains all the python code for all tasks goals.
+ - inputdata.json: Json file of data.
+ - results.txt: Inputs + Results after challenge.py runs with the option of save data that user select. 
+ - README.md: this file with information.
+
 
 
