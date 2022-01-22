@@ -52,13 +52,17 @@ if (option == 1):
     #read from json
     nameJson=str(input("Name the Json file: "))
     # Opening JSON file
-    f = open(nameJson,'r')
-    # returns JSON object as a dictionary
-    data = json.load(f)
-    v0=data['v0']
-    alpha=data['alpha']
-    # Closing file
-    f.close()
+    try:
+        f = open(nameJson,'r')
+        # returns JSON object as a dictionary
+        data = json.load(f)
+        v0=data['v0']
+        alpha=data['alpha']
+        # Closing file
+        f.close()
+    except Exception as e:
+        print(e)
+        sys.exit(1)
 elif (option == 2):
     #manual
     v0=float(input("Initial velocity: "))
