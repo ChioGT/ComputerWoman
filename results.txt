@@ -1,0 +1,1 @@
+|Inputs: Initial velocity: 5.0, Launch angle: 45.0| Results: Maximum height of the projectile: 1.2745997756704395, Maximum traveled distance: 0.8676491531906989|
